@@ -16,6 +16,7 @@
   "author": "Ashutosh Kumar Jha",
   "license": "ISC",
   "dependencies": {
+    "@elastic/elasticsearch": "^8.17.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
@@ -30,7 +31,13 @@
     "@types/express": "^5.0.1",
     "@types/node": "^22.13.10",
     "@types/pg": "^8.11.11",
+    "@typescript-eslint/eslint-plugin": "^8.27.0",
+    "@typescript-eslint/parser": "^8.27.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
     "nodemon": "^3.1.9",
+    "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   }
